@@ -5,7 +5,7 @@
 To design the StringServer class, I built upon the NumberServer class that we had previously used in the lab. I implemented a method that searched for the word to be added and displayed it in the form of one continuous, concatenated string with line breaks. Following is the code I used for StringServer, as well as the code for the Handler class that performs all the operations. 
 
 
-```
+<code>
 import java.io.IOException;
 import java.net.URI;
 
@@ -44,7 +44,7 @@ class StringServer
         Server.start(port, new Handler());
     }
 }
-```
+<code>
 
 Running the following commands on my terminal set up the server: 
 ```
